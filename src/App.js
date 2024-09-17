@@ -8,6 +8,8 @@ import React, { useCallback, useMemo, useState, useRef } from 'react';
 import GridExample from './components/GridExample';
 import AgGridExample from './components/AgGridExample';
 import DragExample from './components/DragExample';
+import DragandCreate from './components/DragandCreate';
+import GroupExample from './components/GroupExample';
 
 ModuleRegistry.registerModules([ClientSideRowModelModule, CsvExportModule]);
 
@@ -201,6 +203,14 @@ const App = () => {
       <div className='container mx-auto my-10'>
         <h2 className="text-center text-2xl font-bold mb-4">Drag and Drop Data Grid</h2>
         <DragExample/>
+      </div>
+      <div className='container mx-auto my-10'>
+        <h2 className="text-center text-2xl font-bold mb-4">Drag and Drop Data Grid</h2>
+        <DragandCreate/>
+      </div>
+      <div className='container mx-auto my-10'>
+        <h2 className="text-center text-2xl font-bold mb-4">Print Data Grid</h2>
+        <GroupExample/>
       </div>
       <textarea id="csvResult" className="w-full"></textarea>
     </div>
