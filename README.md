@@ -34,7 +34,7 @@ Available Scripts
 
 Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   yarn start   `
+`   yarn start  `
 
 The page will reload if you make edits. You will also see any lint errors in the console.
 
@@ -42,13 +42,13 @@ The page will reload if you make edits. You will also see any lint errors in the
 
 Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML `yarn build`
+ `  yarn build  `
 
 ### yarn lint
 
 Runs the linter to check for code quality and formatting issues.
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   yarn lint   `
+`   yarn lint  `
 
 Project Structure
 -----------------
@@ -95,4 +95,4 @@ License
 
 This project is licensed under the MIT License.
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML``   Make sure to replace `[https://github.com/Harisafzal03/Data_Grid.git](https://github.com/Harisafzal03/Data_Grid.git)` with the actual URL of your repository. You can add additional sections depending on any custom configurations or advanced features in your project!   ``
+``   Make sure to replace `[https://github.com/Harisafzal03/Data_Grid.git](https://github.com/Harisafzal03/Data_Grid.git)` with the actual URL of your repository. You can add additional sections depending on any custom configurations or advanced features in your project!   ``
