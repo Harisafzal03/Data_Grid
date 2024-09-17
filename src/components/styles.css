@@ -1,0 +1,95 @@
+.example-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#myGrid {
+    flex: 1 1 0px;
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    width: 90px;
+    height: auto;
+    margin-right: 12px;
+    filter: brightness(1.1);
+}
+
+.imgSpan {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.imgSpanLogo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.missionSpan {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.missionIcon {
+    width: auto;
+    height: auto;
+}
+
+.priceIcon {
+    display: block;
+    width: 15px;
+    height: auto;
+    max-height: 50%;
+    margin-right: 2px;
+}
+
+.logoCell {
+    background-color: #fff3;
+}
+
+.outer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .grid-col {
+    flex: 1;
+  }
+  
+  .drop-col {
+    flex: 1;
+    border: 2px dashed #ddd;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .drop-target {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .json-display {
+    margin-top: 20px;
+  }
+  
+  .red-row {
+    background-color: #ffdddd;
+  }
+  
+  .green-row {
+    background-color: #ddffdd;
+  }
+  
+  .blue-row {
+    background-color: #ddddff;
+  }
+  

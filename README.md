@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# AG Grid Project with Multiple Grids and Functionalities
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project showcases multiple implementations of AG Grid, utilizing various data sources and features such as drag-and-drop functionality, dynamic row classes, and custom cell rendering. It is built using React and AG Grid's community modules. The project is managed with `yarn` for package management and scripts.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Drag and Drop Support**: Enables dragging rows and dropping them into a target element.
+- **Custom Column Definitions**: Configurable columns for different grids, including sortable and filterable fields.
+- **Dynamic Row Styling**: Applies row-level styles based on specific field values.
+- **Pagination and Row Management**: Allows pagination and managing large datasets efficiently.
+- **Data Import and Export**: Supports importing data from Excel (`.xlsx`) and exporting the grid data.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To set up the project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the Repository**
 
-### `npm test`
+   ```bash
+   git clone https://github.com/Harisafzal03/Data_Grid.git
+2. **Navigate to the Project Directory**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   cd Data_Grid
+3. **Install Dependencies**
 
-### `npm run build`
+   ```bash
+   yarn install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Available Scripts
+-----------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### yarn start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm run eject`
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   yarn start   `
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The page will reload if you make edits. You will also see any lint errors in the console.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### yarn build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML `yarn build`
 
-## Learn More
+### yarn lint
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Runs the linter to check for code quality and formatting issues.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   yarn lint   `
 
-### Code Splitting
+Project Structure
+-----------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*   **src/GridExample.jsx**: Main grid implementation with drag-and-drop functionality and dynamic row styling.
+    
+*   **src/data.jsx**: Contains sample data for grid rows.
+    
+*   **src/style.css**: Custom CSS for the grid and UI components.
+    
+*   **src/App.jsx**: Root component that renders the grids.
+    
 
-### Analyzing the Bundle Size
+Usage
+-----
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1.  **Drag and Drop Grid**:
+    
+    *   Drag rows from the grid and drop them into the designated area.
+        
+    *   Custom styling is applied based on the row's color field (red, green, blue).
+        
+2.  **Data Handling**:
+    
+    *   The project includes functionality for reading Excel files (.xlsx) and displaying the content in the grid.
+        
+    *   Supports exporting the grid data back to an Excel file.
+        
 
-### Making a Progressive Web App
+Dependencies
+------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+*   **React**: A JavaScript library for building user interfaces.
+    
+*   **AG Grid**: The most powerful JavaScript data grid with built-in support for sorting, filtering, and pagination.
+    
+*   **XLSX**: A library for parsing and writing Excel spreadsheets.
+    
+*   **Yarn**: A package manager for managing project dependencies and scripts.
+    
 
-### Advanced Configuration
+License
+-------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is licensed under the MIT License.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML``   Make sure to replace `[https://github.com/Harisafzal03/Data_Grid.git](https://github.com/Harisafzal03/Data_Grid.git)` with the actual URL of your repository. You can add additional sections depending on any custom configurations or advanced features in your project!   ``
